@@ -1,0 +1,70 @@
+.navberContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    border-bottom: 1px solid #4a4a4a;
+}
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.userNameContainer {
+    margin-right: 10px;
+}
+.logoutBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 2, 29);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logoutBtn p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.logoutBtn:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 3, 3);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.logoutBtn:active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 3, 3);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: none;
+}

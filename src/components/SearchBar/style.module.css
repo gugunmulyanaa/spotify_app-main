@@ -1,0 +1,15 @@
+.searchInput {
+    width: 300px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: -26px;
+}
+.searchIcon {
+    position: relative;
+    left: 10px;
+    top: 2px;
+    z-index: 1;
+}

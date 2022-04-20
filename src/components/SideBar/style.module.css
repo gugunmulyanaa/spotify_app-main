@@ -1,0 +1,64 @@
+.sideBarContainer {
+    background-color: #010800;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    padding: 20px;
+}
+.aplicationIcon {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "DM Serif Display", serif;
+}
+.aplicationIcon p span {
+    font-weight: 100;
+}
+.menuHeader {
+    letter-spacing: 3px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #4a4a4a;
+}
+.menuList {
+    list-style: none;
+    padding: 0px;
+}
+.menuItemsCollection {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.menuItemsCollection p {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.menuItemsCollectionActive {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: #1db956;
+    border-radius: 5px;
+}
+.menuItemsCollectionActive p {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.logoIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}

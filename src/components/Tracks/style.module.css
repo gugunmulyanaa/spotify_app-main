@@ -1,0 +1,109 @@
+.trackContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 95%;
+    height: 70px;
+}
+.trackContainer:hover {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(102, 102, 90);
+    margin: 10px 0;
+    width: 95%;
+    height: 70px;
+}
+.coreSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    padding-left: 20px;
+}
+.coreSection p {
+    margin-right: 15px;
+    font-weight: 100;
+    width: 5%;
+}
+.imageSection {
+    border-radius: 8;
+    display: flex;
+    align-items: center;
+}
+.trackImage {
+    width: 50px;
+    height: 50px;
+}
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.trackTitle {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 15px;
+}
+.trackArtist {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
+.trackAlbum {
+    margin-right: 20px;
+}
+.trackDuration {
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.detailSection {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.detailSection p {
+    font-size: 14px;
+    font-weight: 100;
+}
+.actionSection {
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.trackLike {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.trackLike:active {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: red;
+    margin-left: 15px;
+}
+.trackAdd {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}

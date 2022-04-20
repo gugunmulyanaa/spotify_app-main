@@ -1,0 +1,43 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 51, 45);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 102, 90);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.btn:active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 102, 90);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: none;
+}
